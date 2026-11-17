@@ -32,9 +32,9 @@ import streamlit as st
 # Configuration — adjust these two paths to match your project layout.
 # ---------------------------------------------------------------------------
 # holds the six raw CSVs
-DATA_DIR = Path("data/raw")
+DATA_DIR = Path("Coupon Redemption Predictor/data/raw")
 # holds the four .pkl files
-MODELS_DIR = Path("src/models")
+MODELS_DIR = Path("Coupon Redemption Predictor/src/models")
 
 CATEGORICAL_COLS = ["campaign_type", "age_range", "marital_status"]
 NUMERIC_COLS = [
